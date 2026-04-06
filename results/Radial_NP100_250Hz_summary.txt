@@ -1,0 +1,11 @@
+3D Profile Analysis Summary
+===========================
+Scan Mode: Radial
+NP Value: 100
+Frequency: 250 Hz
+Total Points: 402053
+Depth Range: 399.845 - 400.767 mm
+Mean Depth: 400.039 mm
+Standard Deviation: 0.322572 mm
+Coefficient of Variation: 0.0806351%
+Pixel Coverage: 33.0129%

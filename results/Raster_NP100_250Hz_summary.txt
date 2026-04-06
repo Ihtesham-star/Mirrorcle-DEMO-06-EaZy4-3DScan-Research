@@ -1,0 +1,11 @@
+3D Profile Analysis Summary
+===========================
+Scan Mode: Raster
+NP Value: 100
+Frequency: 250 Hz
+Total Points: 30107
+Depth Range: 385.985 - 415.32 mm
+Mean Depth: 400.144 mm
+Standard Deviation: 4.81698 mm
+Coefficient of Variation: 1.20381%
+Pixel Coverage: 7.31996%

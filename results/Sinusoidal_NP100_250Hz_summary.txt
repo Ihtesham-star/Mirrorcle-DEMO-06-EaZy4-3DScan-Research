@@ -1,0 +1,11 @@
+3D Profile Analysis Summary
+===========================
+Scan Mode: Sinusoidal
+NP Value: 100
+Frequency: 250 Hz
+Total Points: 437055
+Depth Range: 398.815 - 401.785 mm
+Mean Depth: 400.049 mm
+Standard Deviation: 0.581071 mm
+Coefficient of Variation: 0.14525%
+Pixel Coverage: 41.6911%

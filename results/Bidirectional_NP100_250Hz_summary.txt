@@ -1,0 +1,11 @@
+3D Profile Analysis Summary
+===========================
+Scan Mode: Bidirectional
+NP Value: 100
+Frequency: 250 Hz
+Total Points: 316577
+Depth Range: 398.844 - 401.8 mm
+Mean Depth: 400.057 mm
+Standard Deviation: 0.471608 mm
+Coefficient of Variation: 0.117885%
+Pixel Coverage: 37.7148%
