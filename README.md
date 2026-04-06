@@ -2,8 +2,6 @@
 
 C++ research code for trajectory-driven 3D scanning using Mirrorcle DEMO-06 class hardware (EaZy4.0 family), a Basler camera, and laser-line triangulation.
 
-This is the exact codebase used for trajectory comparison work that I reference in my CV.
-
 ## What This Repo Contains
 
 - A working MTICamera-3DScan demo extension with custom scan trajectories
@@ -27,10 +25,6 @@ Main source file:
 - MEMS mirror: A7M10.2-1000AL
 - USB-SL MZ controller
 - USB 3.0 Basler camera
-
-Note:
-- Mirrorcle documentation commonly references DEMO-06 with EaZy4.0V configuration.
-- This workflow also applies to other EaZy4.0 variants used in lab setups (for example green-laser builds), with matching calibration and settings.
 
 ## Repository Layout
 
