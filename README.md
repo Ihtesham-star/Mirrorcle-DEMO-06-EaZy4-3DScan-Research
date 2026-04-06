@@ -1,6 +1,21 @@
-# EaZy4.0G MEMS 3D Scan Research
+# Mirrorcle DEMO-06 (EaZy4.0) 3D Scanning Trajectory Research
 
-Research prototype for 3D laser line scanning using the Mirrorcle EaZy4.0G scan module, Basler camera capture, and trajectory-driven MEMS beam steering.
+Research prototype for 3D laser line scanning and trajectory comparison using Mirrorcle's DEMO-06 development kit architecture, Basler camera capture, and MEMS beam steering.
+
+## Kit Identification
+This repository is aligned to the official Mirrorcle user-guide naming for:
+- Product: 3D Scanning Demonstrator Kit
+- Part Number: DEMO-06
+- Scan Module Family: EaZy4.0
+- MEMS Mirror: A7M10.2-1000AL
+- Controller: USB-SL MZ
+
+Based on the DEMO-06 user guide, typical reference hardware includes a USB 3.0 camera and calibrated triangulation geometry.
+
+## Variant Note (Important)
+Mirrorcle documentation for DEMO-06 (May 2025 revision) references an EaZy4.0V violet-laser configuration.
+This research code may also be used with other EaZy4.0 variants (including EaZy4.0G green-laser configurations) depending on your lab hardware.
+Always verify wavelength, laser power, and calibration files for your specific unit.
 
 ## Project Summary
 This repository contains the trajectory-comparison implementation used in research experiments for:
@@ -11,6 +26,8 @@ This repository contains the trajectory-comparison implementation used in resear
 - Radial Lissajous scanning
 
 The main scanner application builds 3D points through camera-laser triangulation and exports summary and comparison data for trajectory studies.
+
+The implementation extends SDK demo ideas with custom trajectory experiments and 3D analysis exports.
 
 ## Main Entry Point
 - src/MTICamera-3DScan-Demo.cpp
@@ -30,7 +47,7 @@ The main scanner application builds 3D points through camera-laser triangulation
   - Place screenshots/plots for GitHub presentation
 
 ## Hardware Used
-- Mirrorcle EaZy4.0G scan module
+- Mirrorcle DEMO-06 class hardware stack (EaZy4.0 scan module + controller + camera)
 - Mirrorcle MEMS controller and driver chain
 - Basler camera
 - Laser source integrated in scan module
@@ -54,10 +71,14 @@ Install these locally before building:
 5. Build for x64 Release (recommended for acquisition performance).
 
 ## Run Notes
-1. Connect EaZy4.0G and camera hardware.
+1. Connect DEMO-06 hardware chain (or equivalent EaZy4.0 setup) and camera.
 2. Confirm serial device connectivity and camera visibility.
 3. Launch the executable and select trajectory mode from the UI controls.
 4. Export CSV summaries from test runs for comparison analysis.
+
+Recommended from guide context:
+- Use low to medium ambient lighting for initial operation.
+- Keep target geometry near calibrated working distance and recalibrate if setup changes.
 
 ## Included Sample Outputs
 - all_scans_comparison.csv
